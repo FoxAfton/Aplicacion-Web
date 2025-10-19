@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="4.0">
+ <servlet>
+    <servlet-name>PokemonServlet</servlet-name>
+    <servlet-class>com.mycompany.pokeapi.Servlet.SvPokemon</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>PokemonServlet</servlet-name>
+    <url-pattern>/pokemonServlet</url-pattern>
+</servlet-mapping>
+
+</web-app>
+

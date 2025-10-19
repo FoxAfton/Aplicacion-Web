@@ -1,0 +1,4 @@
+com\mycompany\pokeapi\resources\JakartaEE8Resource.class
+com\mycompany\pokeapi\Servlet\SvPokemon.class
+com\mycompany\pokeapi\Model\Pokemon.class
+com\mycompany\pokeapi\JakartaRestConfiguration.class

@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 320px;
+}
+
+h1, h2 {
+  color: #ff0000;
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+button, .btn {
+  background-color: #ffcc00;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+img {
+  margin-top: 15px;
+  width: 150px;
+}
+
+/* 
+    Created on : 16 oct 2025, 9:27:36 a.m.
+    Author     : Fox
+*/
+
