@@ -1,0 +1,7 @@
+com\mycompany\proyecto_u3\JakartaRestConfiguration.class
+com\mycompany\proyecto_u3\model\UserDAO.class
+com\mycompany\proyecto_u3\servlets\SvRegister.class
+com\mycompany\proyecto_u3\servlets\SvLogout.class
+com\mycompany\proyecto_u3\servlets\SvLogin.class
+com\mycompany\proyecto_u3\model\User.class
+com\mycompany\proyecto_u3\resources\JakartaEE10Resource.class
