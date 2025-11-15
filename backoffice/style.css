@@ -83,7 +83,7 @@ input:focus {
 
 /*---------Register--------*/
 #Register {
-  background: #6c63ff;
+  background: #63ffa9;
   color: white;
   border: none;
   padding: 12px;
@@ -94,6 +94,60 @@ input:focus {
 }
 
 #Register:hover {
-  background: #594ff0;
+  background: #63ffa9;
   transform: scale(1.03);
+}
+
+/*----------HOME---------*/
+
+h1 {
+ text-align: center;
+}
+
+.container {
+ max-width: 900px;
+ margin: auto;
+}
+
+.btn {
+background: #007bff;
+color: white;
+padding: 12px 20px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+font-size: 15px;
+margin-bottom: 15px;
+}
+.btn-danger {
+background: #dc3545;
+}
+.btn-warning {
+background: #ffc107;
+color: black;
+}
+.project-card {
+background: white;
+padding: 15px;
+border-radius: 7px;
+margin-bottom: 15px;
+box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+form {
+background: white;
+padding: 20px;
+margin-top: 15px;
+border-radius: 7px;
+-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+input, textarea {
+width: 100%;
+padding: 10px;
+margin-top: 8px;
+margin-bottom: 15px;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+label {
+font-weight: bold;
 }

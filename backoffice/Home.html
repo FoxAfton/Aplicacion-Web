@@ -7,6 +7,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <h1> Mis Proyectos </h1>
+        <button id="aggProyecto">Agregar Proyecto</button>
+        <div id="projectList" class="project-grid"></div>
+
+        <div id="formProject" class="modal hidden">
+            <div class="contenido">
+                <h2 id="titulo"> Nuevo Proyecto </h2>
+                <form id="formulario">
+                    <label> ID </label>
+                    <input id="ID" type="text">
+
+                    <label> Nombre </label>
+                    <input id="nameP" type="text" required>
+
+                    <label> Descripcion </label>
+                    <textarea id="descrip" required></textarea>
+
+                    <label> UserID </label>
+                    <input id="user" type="text">
+
+                    <label>Tecnologias</label>
+                    <input id="Tech" type="text">
+
+                    <label>Repositorio</label>
+                    <input id="URL" type="text">
+
+                    <button type="submit" id="saveProjectBtn">Guardar</button>
+                    <button type="button" id="cancelForm">Cancelar</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
     
+
+
+<script src="Home.js"></script>
 </body>
 </html>
