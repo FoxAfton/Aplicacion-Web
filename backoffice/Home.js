@@ -167,7 +167,9 @@ formulario.addEventListener("submit", async (e) => {
 
 document.addEventListener("DOMContentLoaded", getProjects);
 
-function logout() {
-    localStorage.removeItem("token");
-    window.location.href = "Login.html";
-}
+document.getElementById("logoutBtn").addEventListener("click", () => {
+    if (confirm("¿Seguro que quieres cerrar sesión?")) {
+        localStorage.removeItem("authToken");
+        window.location.href = "Login.html";
+    }
+});
