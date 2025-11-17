@@ -7,38 +7,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container home-layout">
+
+    <div class="left-panel">
         <h1> Mis Proyectos </h1>
-        <button id="aggProyecto">Agregar Proyecto</button>
+        <button id="aggProyecto" class="btn-primary">Agregar Proyecto</button>
+
         <div id="projectList" class="project-grid"></div>
+    </div>
 
-        <div id="formProject" class="modal hidden">
-            <div class="contenido">
-                <h2 id="titulo"> Nuevo Proyecto </h2>
-                <form id="formulario">
-                    <label> ID </label>
-                    <input id="ID" type="text">
+    <div class="right-panel">
+        <div id="formProject" class="form-card" style="display:none;">
+            <h2 id="titulo">Nuevo Proyecto</h2>
 
-                    <label> Nombre </label>
-                    <input id="nameP" type="text" required>
+            <form id="formulario">
 
-                    <label> Descripcion </label>
-                    <textarea id="descrip" required></textarea>
+                <label>Título</label>
+                <input id="title" type="text" required>
 
-                    <label> UserID </label>
-                    <input id="user" type="text">
+                <label>Descripción</label>
+                <textarea id="description" required></textarea>
 
-                    <label>Tecnologias</label>
-                    <input id="Tech" type="text">
+                <label>Tecnologías</label>
+                <input id="tech" type="text" placeholder="React, Node, Mongo">
 
-                    <label>Repositorio</label>
-                    <input id="URL" type="text">
-
-                    <button type="submit" id="saveProjectBtn">Guardar</button>
-                    <button type="button" id="cancelForm">Cancelar</button>
-                </form>
-            </div>
-
+                <label>Repositorio (URL)</label>
+                <input id="repo" type="text" required>
+                <button type="submit" id="saveProjectBtn" class="btn-success">Guardar</button>
+                <button type="button" id="cancelForm" class="btn-danger">Cancelar</button>
+            </form>
+        </div>
         </div>
     </div>
     

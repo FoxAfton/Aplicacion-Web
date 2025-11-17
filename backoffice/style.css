@@ -100,54 +100,86 @@ input:focus {
 
 /*----------HOME---------*/
 
-h1 {
- text-align: center;
+.home-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* izquierda grande / derecha pequeña */
+  gap: 30px;
+  margin-top: 40px;
 }
 
-.container {
- max-width: 900px;
- margin: auto;
+/* Panel izquierdo */
+.left-panel {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
 }
 
-.btn {
-background: #007bff;
-color: white;
-padding: 12px 20px;
-border: none;
-cursor: pointer;
-border-radius: 5px;
-font-size: 15px;
-margin-bottom: 15px;
+/* Lista de proyectos */
+.project-grid {
+  margin-top: 20px;
 }
+
+/* Panel derecho */
+.right-panel {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  height: fit-content;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Tarjeta del formulario */
+.form-card {
+  width: 100%;
+}
+
+.form-card {
+  display: block;
+}
+
+/* Botones mejorados */
+.btn-primary {
+  background: #6c63ff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  transform: scale(1.04);
+}
+
+.btn-success {
+  background: #63ffa9;
+  color: black;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
 .btn-danger {
-background: #dc3545;
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
 }
-.btn-warning {
-background: #ffc107;
-color: black;
+
+/* Formulario */
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
 }
-.project-card {
-background: white;
-padding: 15px;
-border-radius: 7px;
-margin-bottom: 15px;
-box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
-}
-form {
-background: white;
-padding: 20px;
-margin-top: 15px;
-border-radius: 7px;
--shadow: 0px 2px 5px rgba(0,0,0,0.1);
-}
-input, textarea {
-width: 100%;
-padding: 10px;
-margin-top: 8px;
-margin-bottom: 15px;
-border-radius: 5px;
-border: 1px solid #ccc;
-}
-label {
-font-weight: bold;
+
+form textarea {
+  height: 90px;
 }
